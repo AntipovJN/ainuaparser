@@ -8,8 +8,6 @@ import org.apache.log4j.Logger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.List;
 
 public class ArticleDAOimpl implements ArticleDAO {
 
@@ -30,15 +28,4 @@ public class ArticleDAOimpl implements ArticleDAO {
         }
     }
 
-    public List<Article> getAll() {
-        return null;
-    }
-
-    public Article getById(int id) {
-        return null;
-    }
-
-    public Article getByURL(String url) {
-        return null;
-    }
 }

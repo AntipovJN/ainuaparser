@@ -1,9 +1,6 @@
-import DAO.ArticleDAO;
-import Factories.ArticleDaoFactory;
 import Factories.ArticleServiceFactory;
 import Factories.ParserHtmlFactory;
 import Parsers.HtmlParser;
-import Entity.Article;
 import Service.ArticleService;
 
 import java.io.IOException;
